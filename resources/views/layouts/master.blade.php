@@ -60,8 +60,8 @@
     </script>
 
     <!-- Javascript Page Loader -->
-    <script type="text/javascript" src="{{asset('js/pace.min.js')}}" data-pace-options='{ "ajax": false }'></script>
-    <script type="text/javascript" src="{{asset('js/page-loading.js')}}"></script>
+    <!-- <script type="text/javascript" src="{{asset('js/pace.min.js')}}" data-pace-options='{ "ajax": false }'></script> -->
+    <!-- <script type="text/javascript" src="{{asset('js/page-loading.js')}}"></script> -->
 </head>
 <body>
     <div id="page-wrapper">
@@ -121,9 +121,9 @@
                 </a>
 
                 <div class="container">
-                    <h1 class="logo navbar-brand">
+                    <h1 class=" navbar-brand">
                         <a href="index.html" title="Travelo - home">
-                            <img src="images/logo.png" alt="Travelo HTML5 Template" />
+                            <img src="{{asset('logo.png')}}" width="auto" height="50" alt="Travelo HTML5 Template" />
                         </a>
                     </h1>
 
